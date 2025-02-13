@@ -1,0 +1,23 @@
+{
+    "678448bf925353.79334543": {
+        "username": "Admin felhaszn\u00e1l\u00f3",
+        "email": "admin@ikarrental.hu",
+        "password": "$2y$10$s7ITYjh5PQAj7y0wGglImulYldUhfERZc02YEs9D3IYPPF\/gW2ILi",
+        "password_again": "$2y$10$940jus4m4IDQsuL2j.rUG.G6mIN78s0SWMv15L.xdaQo.O2QM6g3e",
+        "_id": "678448bf925353.79334543"
+    },
+    "678447b3f0a265.61282057": {
+        "username": "Toth Henrik",
+        "email": "henrik@email.com",
+        "password": "$2y$10$Rlmzd\/EYELlJKaJwxiKY5eaNYiqc7TNBTrlRCBoMjru0Evay0om1S",
+        "password_again": "$2y$10$dtgCvRURRdUKrw\/.DOVlXOlgyIRU1vU3vcNIc3R0tC1xM0gwW6djm",
+        "_id": "678447b3f0a265.61282057"
+    },
+    "67ae515ba66c84.56028501": {
+        "username": "user name",
+        "email": "user@username.com",
+        "password": "$2y$10$JX2xCwpjTKIjoRGZHBZjzeSnV34x8wrpk20VGuaAgvePIA3ctYO\/6",
+        "password_again": "$2y$10$qJQoa1BIvUyhMVJdIdPH\/.p9.DDO2WuwdV9EgTv4ZNQ8kltZsjyqi",
+        "_id": "67ae515ba66c84.56028501"
+    }
+}

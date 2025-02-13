@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo a:link, .logo a:hover, .logo a:active, .logo a:visited{
+    text-decoration: none;
+    color: white;
+}
+.login {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.register, .logout {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+}
+.userimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.main {
+    text-align: center;
+    padding: 40px;
+}
+
+.main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.filters input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+.filters select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #fff;
+    appearance: none;
+    cursor: pointer;
+}
+.filters .filter-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+}
+.car-card {
+    display: inline-block;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin: 0 10px;
+}
+.car-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.car-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.car-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #aaa;
+}
+
+.car-card .price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.car-card .book-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+}
+
+.delete-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.car {
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.car img {
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 0;
+}
+.car-details {
+    padding: 20px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    border-radius: 8px;
+    margin: 20px 0 20px 20px;
+    width: 50%;
+}
+
+.car_select_date {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1f71f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.car_reserve {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+}
+.admin-form {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.admin-form input{
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 16px;
+}
+.admin-form select {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 16px;
+    appearance: none;
+    cursor: pointer;
+}
+.admin-form button {
+    padding: 12px 24px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.admin-form label {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-form{
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+.login-form input {
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-form label {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-form button {
+    padding: 12px 24px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+@media screen and (max-width: 980px) {
+    .filters {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .filters input,
+    .filters select,
+    .filters .filter-btn {
+        width: 100%;
+        max-width: 300px;
+    }
+}

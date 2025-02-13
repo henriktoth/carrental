@@ -1,0 +1,35 @@
+[
+    {
+        "id": "6782591799f1c",
+        "brand": "Skoda",
+        "model": "Fabia",
+        "year": 2001,
+        "transmission": "Manual",
+        "fuel": "Benzin",
+        "passengers": 5,
+        "price": 10000,
+        "image": ".\\\/images\\\/car.jpg"
+    },
+    {
+        "id": "67825939e975a",
+        "brand": "Audi",
+        "model": "A3",
+        "year": 2005,
+        "transmission": "Manual",
+        "fuel": "Benzin",
+        "passengers": 5,
+        "price": 15000,
+        "image": ".\\\/images\\\/car.jpg"
+    },
+    {
+        "id": "6784500e1d90b",
+        "brand": "BMW",
+        "model": "M3",
+        "year": 2005,
+        "transmission": "Manual",
+        "fuel": "Benzin",
+        "passengers": 5,
+        "price": 25000,
+        "image": ".\\\/images\\\/car.jpg"
+    }
+]
